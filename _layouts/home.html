@@ -8,6 +8,11 @@
       {{ content }}
     </div>
 
+
+    <div class="my-6">
+      {% include intro.html %}
+    </div>
+
     <div class="my-6">
       {% include projects.html %}
     </div>
@@ -37,6 +42,10 @@
             {{ content }}
           </div>
         {% endunless %}
+
+        <div class="my-6">
+          {% include intro.html %}
+        </div>
 
         {% include projects.html %}
 
